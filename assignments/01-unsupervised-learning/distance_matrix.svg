@@ -1,0 +1,45 @@
+<svg width="530" height="240" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cell { fill:#fafafa; stroke:#333; }
+    .head { fill:#ddeeff; stroke:#333; }
+    .txt { font: 13px monospace; fill:#111; }
+    .label { font: 16px sans-serif; font-weight: bold; }
+  </style>
+  <text x="10" y="20" class="label">Result shape = (3, 3, 2)</text>
+  <text x="10" y="40" class="txt">Each cell = row_point - column_point</text>
+
+  <rect x="90" y="60" width="120" height="40" class="head"/>
+  <rect x="210" y="60" width="120" height="40" class="head"/>
+  <rect x="330" y="60" width="120" height="40" class="head"/>
+  <text x="135" y="85" class="txt">P0 [1,2]</text>
+  <text x="255" y="85" class="txt">P1 [3,4]</text>
+  <text x="375" y="85" class="txt">P2 [5,6]</text>
+
+  <rect x="10" y="100" width="80" height="40" class="head"/>
+  <rect x="10" y="140" width="80" height="40" class="head"/>
+  <rect x="10" y="180" width="80" height="40" class="head"/>
+  <text x="25" y="125" class="txt">P0 [1,2]</text>
+  <text x="25" y="165" class="txt">P1 [3,4]</text>
+  <text x="25" y="205" class="txt">P2 [5,6]</text>
+
+  <rect x="90" y="100" width="120" height="40" class="cell"/>
+  <rect x="210" y="100" width="120" height="40" class="cell"/>
+  <rect x="330" y="100" width="120" height="40" class="cell"/>
+  <text x="125" y="125" class="txt">[0, 0]</text>
+  <text x="238" y="125" class="txt">[-2, -2]</text>
+  <text x="358" y="125" class="txt">[-4, -4]</text>
+
+  <rect x="90" y="140" width="120" height="40" class="cell"/>
+  <rect x="210" y="140" width="120" height="40" class="cell"/>
+  <rect x="330" y="140" width="120" height="40" class="cell"/>
+  <text x="125" y="165" class="txt">[2, 2]</text>
+  <text x="245" y="165" class="txt">[0, 0]</text>
+  <text x="358" y="165" class="txt">[-2, -2]</text>
+
+  <rect x="90" y="180" width="120" height="40" class="cell"/>
+  <rect x="210" y="180" width="120" height="40" class="cell"/>
+  <rect x="330" y="180" width="120" height="40" class="cell"/>
+  <text x="125" y="205" class="txt">[4, 4]</text>
+  <text x="245" y="205" class="txt">[2, 2]</text>
+  <text x="365" y="205" class="txt">[0, 0]</text>
+</svg>
